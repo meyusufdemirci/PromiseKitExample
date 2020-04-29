@@ -7,5 +7,6 @@ target 'PromiseKitExample' do
 
   # Pods for PromiseKitExample
   pod 'PromiseKit'
+  pod 'RxCoreLocation'
 
 end

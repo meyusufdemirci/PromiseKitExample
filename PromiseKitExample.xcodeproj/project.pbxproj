@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9216EA72459C1D3003FEBA1 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9216EA62459C1D3003FEBA1 /* ErrorModel.swift */; };
+		C9216EAA2459C244003FEBA1 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9216EA92459C244003FEBA1 /* AlertManager.swift */; };
 		C95664812459BD1900838B4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95664802459BD1900838B4A /* AppDelegate.swift */; };
 		C95664832459BD1900838B4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95664822459BD1900838B4A /* SceneDelegate.swift */; };
 		C95664852459BD1900838B4A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95664842459BD1900838B4A /* HomeController.swift */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		141BD5086C90FD1E7F54C93F /* Pods-PromiseKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromiseKitExample.debug.xcconfig"; path = "Target Support Files/Pods-PromiseKitExample/Pods-PromiseKitExample.debug.xcconfig"; sourceTree = "<group>"; };
 		AA904969A7E45947CE9EEA8E /* Pods-PromiseKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromiseKitExample.release.xcconfig"; path = "Target Support Files/Pods-PromiseKitExample/Pods-PromiseKitExample.release.xcconfig"; sourceTree = "<group>"; };
+		C9216EA62459C1D3003FEBA1 /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		C9216EA92459C244003FEBA1 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		C956647D2459BD1900838B4A /* PromiseKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromiseKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95664802459BD1900838B4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C95664822459BD1900838B4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +61,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C9216EA52459C1CA003FEBA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9216EA62459C1D3003FEBA1 /* ErrorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9216EA82459C23A003FEBA1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C9216EA92459C244003FEBA1 /* AlertManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		C95664742459BD1900838B4A = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +98,8 @@
 		C956647F2459BD1900838B4A /* PromiseKitExample */ = {
 			isa = PBXGroup;
 			children = (
+				C9216EA82459C23A003FEBA1 /* Managers */,
+				C9216EA52459C1CA003FEBA1 /* Models */,
 				C9E79DA92459BDA40095DB69 /* Sources */,
 				C9E79DA82459BD9E0095DB69 /* Supports */,
 				C9E79DA72459BD980095DB69 /* UI */,
@@ -228,6 +250,8 @@
 			files = (
 				C95664852459BD1900838B4A /* HomeController.swift in Sources */,
 				C95664812459BD1900838B4A /* AppDelegate.swift in Sources */,
+				C9216EAA2459C244003FEBA1 /* AlertManager.swift in Sources */,
+				C9216EA72459C1D3003FEBA1 /* ErrorModel.swift in Sources */,
 				C95664832459BD1900838B4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
